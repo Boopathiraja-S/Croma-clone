@@ -8,6 +8,9 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index element={<Home />}></Route>
+      {/* we can use path="" instead of index its all are same but the home page refelcts "/" so we dont 
+      need to mention it twice thats we use index. if you want know more you can ask chatgpt just copy and past it...
+      */}
     </Route>
   )
 )
